@@ -1,0 +1,43 @@
+.back{
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    background-color: #231f20;
+}
+
+.fboxleft{
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    right: 45%;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fboxright{
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    right: 0%;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tleft{
+    position: relative;
+    top: -60px;
+    left: 0px;
+}
+
+.tright{
+    position: relative;
+    top: 40px;
+    left: -240px;
+}
